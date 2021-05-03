@@ -1,0 +1,75 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {overflow: hidden;height:360px;width:600px;color:#bbb;background-color: #184154;/* border: 1px solid #16394a; *//* padding:12px; */border-radius: 15px;box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.32);}
+#simplemodal-container .simplemodal-data {/* padding:8px; */}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {white-space: nowrap;color:#ddd;background: #E77E23;border-radius: 5px;padding: 6px 17px;font-size: 12px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);text-decoration: none;}
+#simplemodal-container a:hover {background: #84b8d9;}
+#simplemodal-container a.modalCloseImg {background: transparent;box-shadow: none;cursor:pointer;float: right;position: absolute;right: 0;top: 9px;font-size: 16px;height: 33px;z-index: 3;}
+
+ #simplemodal-container a.modalCloseImg:after {
+   content: "\f00d";
+   cursor: pointer;
+ }
+#simplemodal-container h3 {color: #b5b6b7;text-align: center;position: relative;z-index: 2;padding: 12px 0px 2px 0px;font-weight: 400;font-size: 20px;}
+#simplemodal-container td,#simplemodal-container th,#simplemodal-container tr, #simplemodal-container table {padding: 7px 20px;border: 0;position: relative;z-index: 2;}
+#simplemodal-container table {padding: 0;}
+#simplemodal-container th {
+  height: 30px;
+  line-height: 30px;
+  border: 0;
+}
+#simplemodal-container tr:nth-child(2) td {
+  padding-top: 20px;
+}
+#simplemodal-container a.modalCloseImg:after,div#simplemodal-container:after {
+      font-family: "Font Awesome 5 Free";
+}
+div#simplemodal-container:after {
+    position: absolute;
+    content: "\f56d";
+
+    font-size: 236px;
+    bottom: -18%;
+    left: 50%;
+    color: rgba(16, 44, 58, 0.27);
+    z-index: 1;
+    transform: translate(-50%, 0%) rotate(-30deg);
+}
+#simplemodal-container th {
+    background: #153b4d;
+}
+#simplemodal-container td {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+#simplemodal-container {
+  width: 95% !important;
+  transform: translate(-50%, 0%);
+  left: 50% !important;
+  right: 0;
+}
+}
+
+@media screen and (max-width: 460px) {
+#simplemodal-container tr th:nth-child(2)  {display: none;}
+#simplemodal-container tr td:nth-child(2)  {display: none;}
+}
