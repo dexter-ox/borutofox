@@ -1,0 +1,292 @@
+div#site-header {
+    background: #1f212b;
+}
+body {
+    background: #303240;
+}
+body, button, input, select, textarea {
+    color: #a5a1a1;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+ul.menu-links a {
+    background: #474c67;
+}
+.letras-box h3 {
+    background: #e78c65;
+}
+.form_search2 input {
+    border-radius: 5px;
+    border: none;
+    padding: 13px 35px 13px 15px;
+    background: #424761;
+    display: inline-block;
+    color: #fff;
+}
+.letras-box ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 46px;
+    list-style: none;
+    background: #dc7f57;
+    float: left;
+}
+.letras-box ul li.box-link a {
+    background: #e78c65;
+}
+li.box-link a[href*="tipoint"] {
+    margin-left: 11px;
+    border-right: 0 !important;
+    background: #dc7f57 !important;
+}
+::placeholder { 
+  color: #c9cee7;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #c9cee7;
+}
+
+::-ms-input-placeholder {
+  color: #c9cee7;
+}
+.type-list, .genre-list {
+    background: #e78c65;
+}
+.prog-header:after {
+    border-left-color: #dc7f57;
+}
+/*Cuerpo*/
+#container {
+    background: #474c67;
+}
+.slider-header .slide-title {
+    background: #dc7f57;
+    color: #fff;
+}
+.view-all-list a {
+    color: #fff;
+    background: #dc7f57;
+}
+.dark-orange {
+    background-color: #2d6de6 !important;
+}
+.portada-box h2 {
+    color: #9ca5d2;
+    background: #303240;
+}
+.portada-box h2 a {
+    color: #bac0de;
+}
+.portada-box:hover a {
+    color: #ffffff;
+}
+.prog-desc .episode {
+    color: #dcdcdc;
+}
+/*Footer*/
+#site-end {
+    background: #1f2129;
+}
+.site-copy {
+    background: #262832;
+}
+.footer-links a {
+    color: #9ca5d2;
+    background: #474c67;
+}
+.footer-links a:hover {
+    background: rgb(49, 53, 74);
+}
+/*Scroll, widgets*/
+#slider3 .viewport::-webkit-scrollbar-thumb {
+	background-color: #dc7f57;	
+}
+.prog-header {
+    color: #FFFFFF;
+    background: #dc7f57;
+}
+#programacion .overview a.odd, #programacion .overview a.even {
+    border: 1px solid #474c67;
+    margin: 0 0px 2px 0;
+    width: 97%;
+}
+#programacion .overview a.odd:after {
+display: none;
+}
+#programacion .overview a.odd:before, #programacion .overview a.even:before {
+display: none;
+}
+.prog-desc h2 {
+    color: #4ab6ff;
+}
+.side-box {
+    background: #303240;
+}
+.side-box h3 {
+    color: #b0b6d3;
+    background: #474c67;
+}
+.side-menu li.even a {
+    background-color: #474c67;
+}
+.side-menu li.odd a {
+    background-color: #303240;
+}
+.side-menu li a {
+    color: #b0b6d3;
+}
+/*Ovas*/
+.ovas-container .odd {
+    background-color: #474c67;
+}
+.home-title {
+    background: #dc7f57 !important;
+}
+.ov-content h2 {
+    color: #ffffff;
+}
+.ov-content .ov-type {
+    color: #ff9567;
+}
+/*Paginacion*/
+.navigation a.text {
+    background: #dc7f57;
+}
+.navigation a.text:hover {
+    background: #ef9974;
+}
+/*Player*/
+#reproductor-box {
+    background: #1f212b;
+}
+ul.server-tab {
+    background: #474c67;
+}
+ul.server-tab a.current, ul.server-tab a.current:hover, ul.server-tab li.current a {
+    background: #6e7490;
+}
+ul.server-tab a {
+    background: #383c53;
+}
+.video-header {
+    background: #474c67;
+}
+.video-download {
+    background: #e78c65;
+}
+.video-download:hover {
+    background: #ef9974;
+}
+div#combtns a {
+    background: #dc7f57;
+}
+div#combtns a.a {
+    pointer-events: none;
+    background: #303240;
+    color: #474c67;
+}
+.dimension {
+    background: #474c67;
+}
+.accordian li.even {
+    background: #dc7f57;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+.video-info {
+    color: #474c67;
+    background: #1f2129;
+}
+.vnav-left, .vnav-right {
+    color: #FFFFFF;
+    background: #dc5757;
+}
+/*Anime*/
+.sinopsis-links {
+    color: #ffffff;
+    background: #282935;
+}
+.serie-info {
+    background: #1f212b;
+}
+.info-box {
+    border-right: 1px solid #17181f;
+}
+.info-content {
+    color: #5a6080;
+}
+.sinopsis-box > p {
+    color: #5a6080;
+}
+.cap-post .cap-header {
+    color: #fff !important;
+    background: #303240;
+}
+.cap-header:link .cap-number i {
+    color: #7079a7;
+}
+.cap-header:visited .cap-number i {
+    color: #03a9ee !important;
+}
+.alt-widget {
+    background: #1f212b;
+}
+.alt-widget .alt-strong {
+    color: #474c67;
+}
+.alt-widget p {
+    color: #a2a7c4;
+}
+.side-menu li a:hover {
+    background-color: #dc7f57;
+    color: #ffffff;
+}
+/* Top */
+.semana {
+    background-color: #d8a691;
+}
+.semana {
+    border-right: 1px solid #b58d7c;
+}
+.semana h2 {
+    background: #303240;
+}
+.btn-more {
+    background: #303240;
+}
+h4.temporada_t {
+    color: #fff !important;
+}
+
+h4.temporada_t select#t_list {
+ background: #474c67;
+color: #f7976d;
+ border: 1px solid #dc7f57;
+}
+h5.temporada_t {
+    color: #dc7f57 !important;
+    font-size: 15px;
+    padding: 10px 0px 0px 10px;
+    line-height: 0;
+    margin: 42px 2px 0px;
+}
+/*Top*/
+
+.list #animinfo {
+    color: #a2a7c4;
+}
+.list .title {
+    color: #ffffff;
+    font-weight: 100;
+}
+.content-box .home-title b.red {
+    color: #5f2811;
+}
+.rank {
+    background: #e78c65;
+}
